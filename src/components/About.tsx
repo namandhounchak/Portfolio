@@ -7,7 +7,7 @@ const About = () => {
     {
       title: "Frontend",
       icon: <Code className="text-neonblue" size={24} />,
-      skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", ]
+      skills: ["React", "Next.js", "JavaScript", "TypeScript", "Tailwind CSS", ]
     },
     {
       title: "Backend",
