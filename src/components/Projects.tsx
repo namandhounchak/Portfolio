@@ -13,8 +13,17 @@ const webProjects = [
     tags: ["React", "PHP"],
     demoLink: "https://marwarcarpets.com/",
   },
-  {
+   {
     id: 2,
+    title: "JR Binjhol",
+    description: "Designed the entire website centered around their product-showcase and export-activity.",
+    image: "/jr-binjhol.png",
+    tags: ["React", "TypeScript"],
+    demoLink: "https://jr-binjhol.vercel.app/",
+    githubLink: "https://github.com/namandhounchak/JR-Binjhol",
+  },
+  {
+    id: 3,
     title: "Cha-Ching",
     description: "Developed a full-stack personal finance tracker that allows users to manage transactions, set budgets and savings goals, and visualize financial insights — with secure authentication and real-time data handling.",
     image: "/Cha-Ching 2.png",
@@ -23,7 +32,7 @@ const webProjects = [
     githubLink: "https://github.com/sumaiya2028/Cha-Ching",
   },
   {
-    id: 3,
+    id: 4,
     title: "Fake or Safe",
     description: "Developed an interactive web game that challenges users to test their ability to detect AI-generated images.",
     image: "/fakeorsafe.jpg",
@@ -32,7 +41,7 @@ const webProjects = [
     githubLink: "https://github.com/sumaiyakhn1/Catch-the-fake",
   },
   {
-    id: 4,
+    id: 5,
     title: "NoteShala",
     description: "Crafting an innovative digital library that empowers teachers to upload valuable study materials, while giving students instant access to download and enrich their academic journey.",
     image: "/noteshala.jpg",
@@ -42,7 +51,7 @@ const webProjects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Carpet Portfolio",
     description: " Currently developing a visually rich portfolio website for DreamKnot Carpet Company to showcase handcrafted rugs, weaves, and thread artistry with a focus on aesthetics and user engagement.",
     image: "/carpet.jpg",

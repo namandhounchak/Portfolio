@@ -4,13 +4,20 @@ import { Briefcase, Calendar, Building } from 'lucide-react';
 const experiences = [
   {
     id: 1,
+    title: "Web-Dev/Graphic-Design",
+    company: "Freelance",
+    period: "May 2025 - ongoing",
+    description: "Built responsive websites and created impactful graphic designs for established businesses",
+  },
+  {
+    id: 2,
     title: "Web Developer Intern",
     company: "Marwar Carpets International",
     period: "Dec 2024 - April 2025",
     description: "Gained hands-on experience in web development and digital solutions during my internship at Marwar Carpets International, contributing to various projects and enhancing technical skills.",
   },
   {
-    id: 2,
+    id: 3,
     title: "Web Developer",
     company: "Freelance",
     period: "Nov - Dec 2024",
