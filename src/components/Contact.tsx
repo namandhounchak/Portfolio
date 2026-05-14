@@ -64,8 +64,8 @@ const Contact = () => {
         </h2>
         <div className="h-1 w-20 bg-gradient-to-r from-neonblue to-neonpurple rounded-full mx-auto"></div>
         <p className="mt-6 text-white/70 max-w-2xl mx-auto">
-          Have a project in mind or want to discuss new opportunities? 
-          Feel free to reach out to me using the form below.
+          Have a project in mind or want to discuss new opportunities?
+          Feel free to reach out using the form below.
         </p>
       </div>
 
@@ -75,7 +75,7 @@ const Contact = () => {
             <MessageSquare size={20} className="text-neonblue mr-2" />
             Send a Message
           </h3>
-          
+
           <form onSubmit={onSubmit} className="space-y-6">
             <div className="space-y-2">
               <label htmlFor="name" className="text-sm text-white/70">
@@ -91,7 +91,7 @@ const Contact = () => {
                 placeholder="Your Name"
               />
             </div>
-            
+
             <div className="space-y-2">
               <label htmlFor="email" className="text-sm text-white/70">
                 Email Address
@@ -107,7 +107,7 @@ const Contact = () => {
                 placeholder="name@gmail.com"
               />
             </div>
-            
+
             <div className="space-y-2">
               <label htmlFor="message" className="text-sm text-white/70">
                 Your Message
@@ -122,9 +122,9 @@ const Contact = () => {
                 placeholder="Hello, I'd like to discuss a project..."
               />
             </div>
-            
-            <Button 
-              type="submit" 
+
+            <Button
+              type="submit"
               className="w-full bg-gradient-to-r from-neonblue to-neonpurple hover:from-neonpurple hover:to-neonblue"
             >
               Send Message <Send size={16} className="ml-2" />
@@ -133,12 +133,12 @@ const Contact = () => {
 
           <span>{result}</span>
         </div>
-        
+
         <div className="glass-card p-8 flex flex-col justify-center">
           <h3 className="text-xl font-bold mb-8">
             Contact Information
           </h3>
-          
+
           <div className="space-y-8">
             <div className="flex items-start">
               <div className="bg-neonblue/20 p-3 rounded-lg mr-4">
@@ -151,7 +151,7 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-            
+
             <div className="flex items-start">
               <div className="bg-neonpurple/20 p-3 rounded-lg mr-4">
                 <Phone className="text-neonpurple" size={24} />
@@ -163,7 +163,7 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-            
+
             <div className="flex items-start">
               <div className="bg-neonpink/20 p-3 rounded-lg mr-4">
                 <MapPin className="text-neonpink" size={24} />

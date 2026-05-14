@@ -50,10 +50,10 @@ const Hero = () => {
           </Button>
         </div>
         
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-float">
+        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
           <button 
             onClick={scrollToAbout}
-            className="text-white/60 hover:text-white transition-colors flex flex-col items-center"
+            className="text-white/60 hover:text-white transition-colors flex flex-col items-center animate-float"
             aria-label="Scroll down"
           >
             <span className="text-sm mb-2">Scroll</span>

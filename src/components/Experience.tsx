@@ -7,7 +7,7 @@ const experiences = [
     title: "Web Developer Intern",
     company: "Marwar Carpets International",
     period: "Dec 2024 - April 2025",
-    description: "Gained hands-on experience in web development and digital solutions during my internship at AMDGlobalNet, contributing to various projects and enhancing technical skills.",
+    description: "Gained hands-on experience in web development and digital solutions during my internship at Marwar Carpets International, contributing to various projects and enhancing technical skills.",
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const Experience = () => {
           {experiences.map((exp, index) => (
             <div key={exp.id} className="relative">
               {/* Timeline dot */}
-              <div 
+              <div
                 className={`absolute -left-[42px] w-7 h-7 rounded-full flex items-center justify-center
                   ${index === 0 ? 'bg-neonpink' : 'bg-darkcard border-2 border-neonpink/50'}`}
               >
